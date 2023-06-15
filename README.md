@@ -34,6 +34,8 @@
 
 > This project contains all technical details knowledges required for Microverse process student
 
+ This project you can see in: https://jovasal.github.io/ 
+
 **[Complete-Portfolio]** is the first project under knowledge learned in the Microverse process.
 
 ## 🛠 Built With <a name="built-with">John Alonso Vasquez Salcedo made this project under HTML and CSS</a>
@@ -70,7 +72,7 @@
 
 > Is not necessary to use a DEMO. You can download this repository as a reference.
 
-- [Live Demo Link](https://github.com/jovasal/complete-portfolio.git)
+- [Live Demo Link](https://github.com/jovasal/jovasal.github.io.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,14 +101,14 @@ Clone this repository to your desired folder:
 Yoy can use this repository ising the following steps:
            
            1. Clone a repository from www.github.com You can use the follonig link directly to the repository:
-           https://github.com/jovasal/complete-portfolio.git
+           https://github.com/jovasal/jovasal.github.io.git
            
            2.Clone this repository to your desired folder:
            
            Example commands:
            ```sh
            cd my-folder
-           git clone https://github.com/jovasal/complete-portfolio.git
+           git clone https://github.com/jovasal/jovasal.github.io.git
            ```
            
            If you prefer to download without commands, tin the link, 
@@ -122,24 +124,24 @@ Is not necesary to install, but you need any sofware that you can use HTML and C
 ### Usage
 
  1. Clone a repository from www.github.com You can use the follonig link directly to the repository:
-           https://github.com/jovasal/complete-portfolio.git
+           https://github.com/jovasal/jovasal.github.io.git
            
            2.Clone this repository to your desired folder:
            
            Example commands:
            ```sh
            cd my-folder
-           git clone https://github.com/jovasal/complete-portfolio.git
+           git clone https://github.com/jovasal/jovasal.github.io.git
            ```
 
 ### Run tests
 
-COMMING SOON!
+Test is in the following repository: https://github.com/jovasal/jovasal.github.io.git
 
 ### Deployment
 
 
-COMMING SOON!
+All deployment is in: https://github.com/jovasal/jovasal.github.io.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +173,7 @@ John Alonso Vasquez Salcedo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jovasal/complete-portfolio/issues).
+Feel free to check the [issues page](https://github.com/jovasal/jovasal.github.io.git/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
