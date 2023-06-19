@@ -74,7 +74,8 @@ nav {
 }
 
 .logo:hover {
-  color: #6070ff font-size: 60px;
+  color: #6070ff;
+  font-size: 60px;
 }
 
 .burger {
