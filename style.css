@@ -73,8 +73,18 @@ nav {
   color: var(--blue);
 }
 
+/*.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin: -1rem 10rem;
+}*/
+
 .burger {
   margin-right: 28px;
+/*  display: none;*/
 }
 
 .headline {
