@@ -30,13 +30,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Complete-Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio Accessibility] <a name="about-project"></a>
 
 > This project contains all technical details knowledges required for Microverse process student
 
  This project you can see in: https://jovasal.github.io/ 
 
-**[Complete-Portfolio]** is the first project under knowledge learned in the Microverse process.
+**[Portfolio Accessibility]** is the first project under knowledge learned in the Microverse process.
 
 ## 🛠 Built With <a name="built-with">John Alonso Vasquez Salcedo made this project under HTML and CSS</a>
 
@@ -200,3 +200,4 @@ Feel free to check the [issues page](https://github.com/jovasal/jovasal.github.i
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
