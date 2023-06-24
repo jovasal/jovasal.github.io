@@ -87,6 +87,21 @@ nav {
 /*  display: none;*/
 }
 
+#burguer {
+/*  margin-right: 28px;*/
+/*  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;*/
+}
+
+.navbar {
+  margin: 1.5rem 2rem;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
