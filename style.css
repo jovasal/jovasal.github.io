@@ -73,33 +73,13 @@ nav {
   color: var(--blue);
 }
 
-/*.nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3rem;
-  margin: -1rem 10rem;
-}*/
+.logo:hover {
+  color: #6070ff;
+  font-size: 60px;
+}
 
 .burger {
   margin-right: 28px;
-/*  display: none;*/
-}
-
-#burguer {
-/*  margin-right: 28px;*/
-/*  display: inline-block;
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  cursor: pointer;*/
-}
-
-.navbar {
-  margin: 1.5rem 2rem;
 }
 
 .headline {
