@@ -133,7 +133,7 @@ nav {
 
 .projects {
   display: grid;
-  padding: auto;
+  padding: 1px auto;
   margin: 110px 24px;
   row-gap: 72px;
 }
