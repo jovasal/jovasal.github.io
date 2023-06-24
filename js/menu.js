@@ -1,6 +1,6 @@
 function MobileMenu() {
     const menuHamburguer = document.querySelector('.burguer');
-    const navigationMobile = document.querySelector('.menu-nav');
+    const navMobile = document.querySelector('.menu-nav');
     const navMobileLinks = document.querySelectorAll('.links');
     const hamburgerImage = document.querySelector('#burguer');
 
@@ -8,7 +8,7 @@ function MobileMenu() {
         if (navMobile.classList.contains('active')) {
           hamburgerImage.src = './images/cancel.svg';
         } else {
-          hamburgerImage.src = './images/Icon - Menu.svg';
+          hamburgerImage.src = './images/burger.png';
         }
       }
 }
