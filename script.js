@@ -1,22 +1,34 @@
-const menuHamburger = document.querySelector('.hamburguer');
-const navMobile = document.querySelector('.navbar');
-const navMobileLinks = document.querySelectorAll('.nav-list a');
-const hamburgerImage = document.querySelector('#hamburguer');
+/*const menu = document.getElementById('menu-nav');
+const burgerButton = menu.querySelector('.burger');
+const links = menu.querySelector('.links');
+
 
 function toggleMenu() {
-  if (navMobile.classList.contains('active')) {
-    hamburgerImage.src = './images/cancel.svg';
-  } else {
-    hamburgerImage.src = './images/Icon - Menu.svg';
-  }
-}
+  const menu = document.getElementById('menu-nav');
+  const links = menu.querySelector('.links');
+  links.classList.toggle('show');
+}*/
 
-menuHamburger.addEventListener('click', () => {
-  navMobile.classList.toggle('active');
-  toggleMenu();
+
+
+//get necesary element
+
+var menuIcon = document.getElementById("menuIcon");
+var closeIcon = document.getElementById("closeIcon");
+var links = document.getElementById("links");
+
+
+//Add even listener to the menu icon
+
+menuIcon.addEventListener("click", function() {
+  menuIcon.style.display = "none";
+  closeIcon.style.display = "inline-block";
+  links.classList.add("open");
 });
 
-navMobileLinks.forEach((link) => {
-  link.addEventListener('click', () => {
-    navMobile.classList.remove('active');
-    toggleMenu();
+  // Add event listener to the close icon
+  closeIcon.addEventListener("click", function() {
+    menuIcon.style.display = "inline-block";
+    closeIcon.style.display = "none";
+    links.classList.remove("open");
+  });
