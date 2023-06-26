@@ -26,3 +26,9 @@ menuIcon.addEventListener("click", function() {
   links.classList.add("open");
 });
 
+  // Add event listener to the close icon
+  closeIcon.addEventListener("click", function() {
+    menuIcon.style.display = "inline-block";
+    closeIcon.style.display = "none";
+    links.classList.remove("open");
+  });
