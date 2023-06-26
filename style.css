@@ -47,7 +47,7 @@ ul {
   list-style: none;
 }
 
-nav {
+.head1 {
   display: flex;
   position: fixed;
   width: 100%;
@@ -81,6 +81,16 @@ nav {
 .burger {
   margin-right: 28px;
 }
+
+/*#hamburguer {
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}*/
 
 .headline {
   display: flex;
