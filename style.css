@@ -133,7 +133,6 @@ nav {
 
 .projects {
   display: grid;
-  padding: auto;
   margin: 110px 24px;
   row-gap: 72px;
 }
@@ -347,7 +346,7 @@ nav {
   list-style: none;
 }
 
-#h1 {
+#h2 {
   font-family: 'Poppins', sans-serif;
   color: white;
   margin-top: 40px;
@@ -355,7 +354,7 @@ nav {
   list-style: none;
 }
 
-.contact h1 {
+.contact h2 {
   display: flex;
   font-family: 'Poppins', sans-serif;
   color: #fff;
