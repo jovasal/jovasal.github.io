@@ -47,7 +47,7 @@ ul {
   list-style: none;
 }
 
-nav {
+.menuinit {
   display: flex;
   position: fixed;
   width: 100%;
