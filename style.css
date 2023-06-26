@@ -47,7 +47,7 @@ ul {
   list-style: none;
 }
 
-.head1 {
+nav {
   display: flex;
   position: fixed;
   width: 100%;
@@ -81,16 +81,6 @@ ul {
 .burger {
   margin-right: 28px;
 }
-
-/*#hamburguer {
-  display: inline-block;
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  cursor: pointer;
-}*/
 
 .headline {
   display: flex;
@@ -143,6 +133,7 @@ ul {
 
 .projects {
   display: grid;
+  padding: 1px auto;
   margin: 110px 24px;
   row-gap: 72px;
 }
@@ -356,7 +347,7 @@ ul {
   list-style: none;
 }
 
-#h2 {
+#h1 {
   font-family: 'Poppins', sans-serif;
   color: white;
   margin-top: 40px;
@@ -364,7 +355,7 @@ ul {
   list-style: none;
 }
 
-.contact h2 {
+.contact h1 {
   display: flex;
   font-family: 'Poppins', sans-serif;
   color: #fff;
