@@ -43,8 +43,12 @@ button {
   background: none;
 }
 
-ul {
+/*ul {
   list-style: none;
+}*/
+
+#links .open ~ #closeIcone {
+
 }
 
 .menuinit {
@@ -58,9 +62,9 @@ ul {
   align-items: center;
 }
 
-.links {
+/*.links {
   display: none;
-}
+}*/
 
 .logo {
   margin-left: 24px;
