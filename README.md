@@ -200,4 +200,3 @@ Feel free to check the [issues page](https://github.com/jovasal/jovasal.github.i
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
