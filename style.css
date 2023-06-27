@@ -40,12 +40,12 @@ body {
 /* ------Header------ */
 
 .name {
-  font-size: 20px;
+  font-size: 40px;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
 }
 
-main {
+  main {
   background-color: #e5e5e5;
 }
 
