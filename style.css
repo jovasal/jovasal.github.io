@@ -47,24 +47,6 @@ ul {
   list-style: none;
 }
 
-nav {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  background-color: white;
-  height: 48px;
-  top: 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.links {
-  display: none;
-}
-
-.logo {
-  margin-left: 24px;
-}
 
 .logo a {
   font-weight: 700;
@@ -78,9 +60,67 @@ nav {
   font-size: 60px;
 }
 
-.burger {
-  margin-right: 28px;
+/* Estilos para el menú */
+.menuinit {
+  background-color: #881919; /*cambias a #fff*/
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.burger {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.burger img {
+  width: 20px;
+  height: 20px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin-right: 10px;
+}
+
+.links a {
+  display: flex;
+  flex-direction: ;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 90px;
+  margin-left: 12px;
+  font-size: 40px;
+}
+
+/* Estilos para el menú desplegable */
+.menu-bar {
+  display: inline-block;
+}
+
+.close-icon {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
 
 .headline {
   display: flex;
@@ -133,7 +173,6 @@ nav {
 
 .projects {
   display: grid;
-  padding: 1px auto;
   margin: 110px 24px;
   row-gap: 72px;
 }
@@ -347,7 +386,7 @@ nav {
   list-style: none;
 }
 
-#h1 {
+#h2 {
   font-family: 'Poppins', sans-serif;
   color: white;
   margin-top: 40px;
@@ -355,7 +394,7 @@ nav {
   list-style: none;
 }
 
-.contact h1 {
+.contact h2 {
   display: flex;
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -457,30 +496,51 @@ form {
 }
 
 @media screen and (min-width: 768px) {
+
+  .menu-nav {
+    position: relative;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .links.show {
+    display: flex;
+  }
+
+  .links li {
+    margin-bottom: 10px;
+  }
+
+  .menu-bar.hidden {
+    display: none;
+  }
+
+  .close-icon {
+    display: inline-block;
+  }
+  
   nav {
     height: 140px;
   }
 
-  .burger {
-    display: none;
-  }
+  
 
   .logo {
     margin-left: 148px;
   }
 
-  .links {
-    display: flex;
-    margin: 0 148px 0 0;
-    padding: 0;
-    font-weight: 500;
-    font-size: 0.9em;
-    line-height: 20px;
-  }
-
-  .links li {
-    margin-left: 2.22vw;
-  }
 
   .headline {
     background-image: url(./images/background-desktop-contact-form.png);
