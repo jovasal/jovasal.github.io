@@ -38,11 +38,11 @@ body {
 }
 
 /* ------Header------ */
-.logo-personal {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: -5.5rem 0 0 1rem;
+
+.name {
+  font-size: 20px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
