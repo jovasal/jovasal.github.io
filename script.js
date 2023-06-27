@@ -1,16 +1,24 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const menu = document.querySelector('.menuinit');
-  const burgerButton = menu.querySelector('.burger');
-  const links = menu.querySelector('.links');
-  const menuIcon = menu.querySelector('#menuIcon');
-  const closeIcon = menu.querySelector('#closeIcon');
+const menuHamburger = document.querySelector('.hamburguer');
+const navMobile = document.querySelector('.navbar');
+const navMobileLinks = document.querySelectorAll('.nav-list a');
+const hamburgerImage = document.querySelector('#hamburguer');
 
-  function toggleMenu() {
-    links.classList.toggle('show');
-    menuIcon.classList.toggle('hidden');
-    closeIcon.classList.toggle('hidden');
+function toggleMenu() {
+  if (navMobile.classList.contains('active')) {
+    hamburgerImage.src = './images/cancel.svg';
+  } else {
+    hamburgerImage.src = './images/Icon - Menu.svg';
   }
+}
 
-  burgerButton.addEventListener('click', toggleMenu);
-  closeIcon.addEventListener('click', toggleMenu);
+menuHamburger.addEventListener('click', () => {
+  navMobile.classList.toggle('active');
+  toggleMenu();
+});
+
+navMobileLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    navMobile.classList.remove('active');
+    toggleMenu();
+  });
 });
