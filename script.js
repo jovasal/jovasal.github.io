@@ -35,7 +35,7 @@ const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 
 // Function to open the popup with dynamic content
-function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph,) {
+function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph, button1Text, button2Text) {
   // Set the dynamic content
   popupTitle.textContent = title;
   const popupContent = document.querySelector('.popup-content');
@@ -95,7 +95,7 @@ popupButton2.addEventListener('click',function(){
 });
 
 const popupButton3 = document.getElementById('popupButton3');
-popupButton3.addEventListener('click',function(){
+popupButton3.addEventListener('click', function () {
   openPopup(
     'TONIC',
     ' ',
@@ -108,7 +108,7 @@ popupButton3.addEventListener('click',function(){
 });
 
 const popupButton4 = document.getElementById('popupButton4');
-popupButton4.addEventListener('click',function(){
+popupButton4.addEventListener('click', function () {
   openPopup(
     'Multi-Post Stories',
     ' ',
@@ -121,14 +121,14 @@ popupButton4.addEventListener('click',function(){
 });
 
 
-closeButton.addEventListener('click',function(){
+closeButton.addEventListener('click', function () {
   popupContainer.style.display = 'none';
 });
 
-button1.addEventListener('click',function(){
+button1.addEventListener('click',function () {
   console.log('Button 1 clicked');
 });
 
-button2.addEventListener('click',function(){
+button2.addEventListener('click', function () {
   console.log('Button 2 clicked');
 });
