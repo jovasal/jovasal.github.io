@@ -650,7 +650,7 @@ padding: 8rem 2rem;
 .popup-buttons {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-evenly;
 }
 
 .popup-button {
@@ -673,7 +673,17 @@ padding: 8rem 2rem;
   cursor: pointer;
 }
 
+.imagemobile111 {
+  width: 42vw;
+  height: 90%;
+  visibility: visible;
+  position: static;
+  margin: 2rem;
+}
 
+.imagedesktop111 {
+  display: none;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -951,20 +961,36 @@ padding: 8rem 2rem;
   /* ----popup------*/
   .popup {
     display: flex;
-    position: absolute;
     flex-direction: column;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1556px;
-    height: 1163;
+    width: auto;
+    height: auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 
+/*  .popup {
+    display: flex;
+    flex-direction: row-reverse;
+  }*/
+
   .desktop-image {
+    width: 42vw;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
+  }
+
+  .imagemobilepopup {
+    display: none;
+  }
+
+  .imagedesktop111 {
     width: 42vw;
     height: 90%;
     visibility: visible;
