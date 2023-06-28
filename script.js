@@ -28,9 +28,6 @@ const popupContainer = document.getElementById('popupContainer');
 
 const popupTitle = document.querySelector('.popup-title');
 const closeButton = document.querySelector('.popup-close');
-//const button1 = document.getElementById('button1');
-//const button2 = document.getElementById('button2');
-
 // Function to open the popup with dynamic content
 function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph) {
   // Set the dynamic content
