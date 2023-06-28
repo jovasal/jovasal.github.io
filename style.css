@@ -894,7 +894,7 @@ textarea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
-    justify-items: space-around;
+    justify-content: space-around;
     align-items: first baseline;
   }
 
