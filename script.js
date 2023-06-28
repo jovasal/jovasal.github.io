@@ -120,11 +120,3 @@ popupButton4.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   popupContainer.style.display = 'none';
 });
-
-button1.addEventListener('click', () => {
-
-});
-
-button2.addEventListener('click', () => {
-
-});
