@@ -57,18 +57,18 @@ function openPopup(title, subtitle, imageSrc, paragraph, button1Text, button2Tex
   popupContainer.style.display = 'block';
 }
 
-// // Add event listeners for each popup button
-// const popupButton1 = document.getElementById('popupButton1');
-// popupButton1.addEventListener('click', function() {
-//   openPopup(
-//     'Tonic',
-//     ' ',
-//     './images/Snapshoot Portfolio.png',
-//     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-//     'Button 1 for Popup 1',
-//     'Button 2 for Popup 1'
-//   );
-// });
+// Add event listeners for each popup button
+const popupButton1 = document.getElementById('popupButton1');
+popupButton1.addEventListener('click', function() {
+  openPopup(
+    'Tonic',
+    ' ',
+    './images/Snapshoot Portfolio.png',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    'Button 1 for Popup 1',
+    'Button 2 for Popup 1'
+  );
+});
 
 const popupButton2 = document.getElementById('popupButton2');
 popupButton2.addEventListener('click', function() {
