@@ -35,7 +35,7 @@ const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 
 // Function to open the popup with dynamic content
-function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph, button1Text, button2Text) {
+function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph,) {
   // Set the dynamic content
   popupTitle.textContent = title;
   const popupContent = document.querySelector('.popup-content');
@@ -69,7 +69,7 @@ function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph, button1Text,
 
 // Add event listeners for each popup button
 const popupButton1 = document.getElementById('popupButton1');
-popupButton1.addEventListener('click', function() {
+popupButton1.addEventListener('click',function(){
   openPopup(
     'Tonic',
     ' ',
@@ -77,12 +77,12 @@ popupButton1.addEventListener('click', function() {
     './images/SnapshootPortfolio.svg',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 1',
-    'Button 2 for Popup 1'
+    'Button 2 for Popup 1',
   );
 });
 
 const popupButton2 = document.getElementById('popupButton2');
-popupButton2.addEventListener('click', function() {
+popupButton2.addEventListener('click',function(){
   openPopup(
     'Multi-Post Stories',
     ' ',
@@ -90,12 +90,12 @@ popupButton2.addEventListener('click', function() {
     './images/SnapshootPortfolio.svg',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 2',
-    'Button 2 for Popup 2'
+    'Button 2 for Popup 2',
   );
 });
 
 const popupButton3 = document.getElementById('popupButton3');
-popupButton3.addEventListener('click', function() {
+popupButton3.addEventListener('click',function(){
   openPopup(
     'TONIC',
     ' ',
@@ -103,12 +103,12 @@ popupButton3.addEventListener('click', function() {
     './images/SnapshootPortfolio.svg',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 3',
-    'Button 2 for Popup 3'
+    'Button 2 for Popup 3',
   );
 });
 
 const popupButton4 = document.getElementById('popupButton4');
-popupButton4.addEventListener('click', function() {
+popupButton4.addEventListener('click',function(){
   openPopup(
     'Multi-Post Stories',
     ' ',
@@ -116,23 +116,19 @@ popupButton4.addEventListener('click', function() {
     './images/SnapshootPortfolio.svg',
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 4',
-    'Button 2 for Popup 4'
+    'Button 2 for Popup 4',
   );
 });
 
-// Add event listener for the close button
-closeButton.addEventListener('click', function() {
-  // Hide the popup
+
+closeButton.addEventListener('click',function(){
   popupContainer.style.display = 'none';
 });
 
-// Add event listeners for the buttons inside the popup
-button1.addEventListener('click', function() {
-  // Button 1 functionality
+button1.addEventListener('click',function(){
   console.log('Button 1 clicked');
 });
 
-button2.addEventListener('click', function() {
-  // Button 2 functionality
+button2.addEventListener('click',function(){
   console.log('Button 2 clicked');
 });
