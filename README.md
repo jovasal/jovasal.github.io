@@ -13,7 +13,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -65,14 +64,6 @@
 - **Responsive Version**
 - **Grid Containers**
 - **Flex box**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Is not necessary to use a DEMO. You can download this repository as a reference.
-
-- [Live Demo Link](https://github.com/jovasal/jovasal.github.io.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
