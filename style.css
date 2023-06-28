@@ -601,9 +601,22 @@ textarea {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
 }
+/*display: flex;
+position: absolute;
+flex-direction: column;
+left: 0;
+top: 0;
+background: rgba(96, 112, 255, 0.9);
+width: 100%;
+height: 100vh;
+backdrop-filter: blur(5px);
+padding: 8rem 2rem;
+}*/
 
 .popup {
+  display: flex;
   position: absolute;
+  flex-direction: column;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -629,19 +642,24 @@ textarea {
   margin-top: 20px;
 }
 
+.onepoint {
+  display: flex;
+  flex-direction: row;
+}
+
 .popup-buttons {
   margin-top: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between
 }
 
 .popup-button {
   margin-left: 10px;
-  padding: 8px 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  padding: 1px 40px;
+  background-color: #fff;
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -928,5 +946,29 @@ textarea {
 
   .form-group .btn-input {
     display: inline-block;
+  }
+
+  /* ----popup------*/
+  .popup {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1556px;
+    height: 1163;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .desktop-image {
+    width: 42vw;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
   }
 }

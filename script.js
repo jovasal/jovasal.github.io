@@ -41,16 +41,25 @@ function openPopup(title, subtitle, imageSrc, paragraph, button1Text, button2Tex
   const popupContent = document.querySelector('.popup-content');
   popupContent.innerHTML = `
     <h3>${subtitle}</h3>
-    <ul>
-      <li>Point 1</li>
-      <li>Point 2</li>
-      <li>Point 3</li>
-    </ul>
+    <ul class="dates dated-d">
+                <li>CANOPY</li>
+                <li><img src="./images/bullet.svg" alt="counter" /></li>
+                <li class="stack-backend">Back End Dev</li>
+                <li><img src="./images/bullet.svg" alt="counter" /></li>
+                <li class="stack-backend">2015</li>
+              </ul>
 
     <img src="${imageSrc}" alt="Image">
 
-    <h3>Subtitle 3</h3>
+    
     <p>${paragraph}</p>
+
+    <ul class="stacks">
+              <li class="stack-over">HTML</li>
+              <li class="stack-over mobile-hide desktop-show">Ruby on rails</li>
+              <li class="stack-over">CSS</li>
+              <li class="stack-over">Javascript</li>
+            </ul>
   `;
 
   // Show the popup
@@ -122,4 +131,3 @@ button2.addEventListener('click', function() {
   // Button 2 functionality
   console.log('Button 2 clicked');
 });
-
