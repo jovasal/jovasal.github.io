@@ -61,10 +61,10 @@ function openPopup(title, subtitle, imageSrc, paragraph, button1Text, button2Tex
 const popupButton1 = document.getElementById('popupButton1');
 popupButton1.addEventListener('click', function() {
   openPopup(
-    'Popup 1',
-    'Subtitle 1 for Popup 1',
-    'path/to/image1.jpg',
-    'Paragraph content for Popup 1',
+    'Tonic',
+    ' ',
+    './images/Snapshoot Portfolio.png',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 1',
     'Button 2 for Popup 1'
   );
@@ -73,10 +73,10 @@ popupButton1.addEventListener('click', function() {
 const popupButton2 = document.getElementById('popupButton2');
 popupButton2.addEventListener('click', function() {
   openPopup(
-    'Popup 2',
-    'Subtitle 1 for Popup 2',
-    'path/to/image2.jpg',
-    'Paragraph content for Popup 2',
+    'Multi-Post Stories',
+    ' ',
+    './images/Snapshoot 2.png',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 2',
     'Button 2 for Popup 2'
   );
@@ -85,10 +85,10 @@ popupButton2.addEventListener('click', function() {
 const popupButton3 = document.getElementById('popupButton3');
 popupButton3.addEventListener('click', function() {
   openPopup(
-    'Popup 3',
-    'Subtitle 1 for Popup 3',
-    'path/to/image3.jpg',
-    'Paragraph content for Popup 3',
+    'TONIC',
+    ' ',
+    './images/Snapshoot 3.png',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 3',
     'Button 2 for Popup 3'
   );
@@ -97,10 +97,10 @@ popupButton3.addEventListener('click', function() {
 const popupButton4 = document.getElementById('popupButton4');
 popupButton4.addEventListener('click', function() {
   openPopup(
-    'Popup 4',
-    'Subtitle 1 for Popup 4',
-    'path/to/image4.jpg',
-    'Paragraph content for Popup 4',
+    'Multi-Post Stories',
+    ' ',
+    './images/Snapshoot Portfolio 4.png',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     'Button 1 for Popup 4',
     'Button 2 for Popup 4'
   );
