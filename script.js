@@ -26,10 +26,7 @@ navMobileLinks.forEach((link) => {
 
 
 
-
-
 // Get the necessary DOM elements
-const popupButton = document.getElementById('popupButton');
 const popupContainer = document.getElementById('popupContainer');
 const popup = document.getElementById('popup');
 const popupTitle = document.querySelector('.popup-title');
@@ -37,20 +34,85 @@ const closeButton = document.querySelector('.popup-close');
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 
-// Add event listeners
-popupButton.addEventListener('click', function() {
+// Function to open the popup with dynamic content
+function openPopup(title, subtitle, imageSrc, paragraph, button1Text, button2Text) {
   // Set the dynamic content
-  popupTitle.textContent = 'Tonic';
+  popupTitle.textContent = title;
+  const popupContent = document.querySelector('.popup-content');
+  popupContent.innerHTML = `
+    <h3>${subtitle}</h3>
+    <ul>
+      <li>Point 1</li>
+      <li>Point 2</li>
+      <li>Point 3</li>
+    </ul>
+
+    <img src="${imageSrc}" alt="Image">
+
+    <h3>Subtitle 3</h3>
+    <p>${paragraph}</p>
+  `;
 
   // Show the popup
   popupContainer.style.display = 'block';
+}
+
+// Add event listeners for each popup button
+const popupButton1 = document.getElementById('popupButton1');
+popupButton1.addEventListener('click', function() {
+  openPopup(
+    'Popup 1',
+    'Subtitle 1 for Popup 1',
+    'path/to/image1.jpg',
+    'Paragraph content for Popup 1',
+    'Button 1 for Popup 1',
+    'Button 2 for Popup 1'
+  );
 });
 
+const popupButton2 = document.getElementById('popupButton2');
+popupButton2.addEventListener('click', function() {
+  openPopup(
+    'Popup 2',
+    'Subtitle 1 for Popup 2',
+    'path/to/image2.jpg',
+    'Paragraph content for Popup 2',
+    'Button 1 for Popup 2',
+    'Button 2 for Popup 2'
+  );
+});
+
+const popupButton3 = document.getElementById('popupButton3');
+popupButton3.addEventListener('click', function() {
+  openPopup(
+    'Popup 3',
+    'Subtitle 1 for Popup 3',
+    'path/to/image3.jpg',
+    'Paragraph content for Popup 3',
+    'Button 1 for Popup 3',
+    'Button 2 for Popup 3'
+  );
+});
+
+const popupButton4 = document.getElementById('popupButton4');
+popupButton4.addEventListener('click', function() {
+  openPopup(
+    'Popup 4',
+    'Subtitle 1 for Popup 4',
+    'path/to/image4.jpg',
+    'Paragraph content for Popup 4',
+    'Button 1 for Popup 4',
+    'Button 2 for Popup 4'
+  );
+});
+
+// Add event listener for the close button
 closeButton.addEventListener('click', function() {
   // Hide the popup
   popupContainer.style.display = 'none';
 });
 
+// Add event listeners for the buttons inside the popup
 button1.addEventListener('click', function() {
   // Button 1 functionality
   console.log('Button 1 clicked');
@@ -61,38 +123,3 @@ button2.addEventListener('click', function() {
   console.log('Button 2 clicked');
 });
 
-
-
-
-// Get the necessary DOM elements
-const popupButton1 = document.getElementById('popupButton1');
-const popupContainer1 = document.getElementById('popupContainer1');
-const popup1 = document.getElementById('popup1');
-const popupTitle1 = document.querySelector('.popup-title1');
-const closeButton1 = document.querySelector('.popup-close1');
-const button11 = document.getElementById('button11');
-const button21 = document.getElementById('button21');
-
-// Add event listeners
-popupButton1.addEventListener('click', function() {
-  // Set the dynamic content
-  popupTitle1.textContent = 'Multi-Post Stories';
-
-  // Show the popup
-  popupContainer1.style.display = 'block';
-});
-
-closeButton1.addEventListener('click', function() {
-  // Hide the popup
-  popupContainer1.style.display = 'none';
-});
-
-button11.addEventListener('click', function() {
-  // Button 1 functionality
-  console.log('Button 1 clicked');
-});
-
-button21.addEventListener('click', function() {
-  // Button 2 functionality
-  console.log('Button 2 clicked');
-});
