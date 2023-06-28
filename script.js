@@ -60,3 +60,39 @@ button2.addEventListener('click', function() {
   // Button 2 functionality
   console.log('Button 2 clicked');
 });
+
+
+
+
+// Get the necessary DOM elements
+const popupButton1 = document.getElementById('popupButton1');
+const popupContainer1 = document.getElementById('popupContainer1');
+const popup1 = document.getElementById('popup1');
+const popupTitle1 = document.querySelector('.popup-title1');
+const closeButton1 = document.querySelector('.popup-close1');
+const button11 = document.getElementById('button11');
+const button21 = document.getElementById('button21');
+
+// Add event listeners
+popupButton1.addEventListener('click', function() {
+  // Set the dynamic content
+  popupTitle1.textContent = 'Multi-Post Stories';
+
+  // Show the popup
+  popupContainer1.style.display = 'block';
+});
+
+closeButton1.addEventListener('click', function() {
+  // Hide the popup
+  popupContainer1.style.display = 'none';
+});
+
+button11.addEventListener('click', function() {
+  // Button 1 functionality
+  console.log('Button 1 clicked');
+});
+
+button21.addEventListener('click', function() {
+  // Button 2 functionality
+  console.log('Button 2 clicked');
+});
