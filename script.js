@@ -121,8 +121,7 @@ closeButton.addEventListener('click', () => {
 const email = document.querySelector('#email');
 
 email.addEventListener('input', (event) => {
-  let correctInput = ()
-  correctInput = event.target.value.toLowerCase();
+  let correctInput = event.target.value.toLowerCase();
   if (event.target.value !== correctInput) {
     email.setCustomValidity('Please enter your email address using lowercase letters.');
   } else {
