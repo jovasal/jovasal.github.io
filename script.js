@@ -118,6 +118,7 @@ closeButton.addEventListener('click', () => {
   popupContainer.style.display = 'none';
 });
 
+let correctInput = true;
 const email = document.querySelector('#email');
 
 email.addEventListener('input', (event) => {
