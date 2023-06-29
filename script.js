@@ -124,12 +124,13 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
   var emailInput = document.getElementById("emailInput");
   //var errorMessage = document.getElementById("your email must be write in lower case");
 
-  if (emailInput.value === emailInput.value.toLowerCase()) {
-    // Validation is OK, send the form
-    console.log("Form sent successfully!");
-    this.submit(); // Submit the form
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    
+    event.preventDefault();
   } else {
-    // Validation failed, display error message
-    event.preventDefault(); 
+    
+    console.log("Form sent successfully!");
+    this.submit(); 
   }
+  
 });
