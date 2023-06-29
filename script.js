@@ -56,11 +56,9 @@ function openPopup(title, subtitle, imageSrc, imageSrc1, paragraph) {
               <li class="stack-over">Javascript</li>
             </ul>
   `;
-
   // Show the popup
   popupContainer.style.display = 'block';
 }
-
 // Add event listeners for each popup button
 const popupButton1 = document.getElementById('popupButton1');
 popupButton1.addEventListener('click', () => {
@@ -124,7 +122,8 @@ email.addEventListener('input', (event) => {
   let correctInput = event.target.value.toLowerCase();
   if (event.target.value !== correctInput) {
     email.setCustomValidity('Please enter your email address using lowercase letters.');
-  } else {
-    email.setCustomValidity('');
   }
+  else {
+    email.setCustomValidity('');
+  };
 });
