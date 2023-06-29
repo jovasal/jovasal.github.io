@@ -118,13 +118,13 @@ closeButton.addEventListener('click', () => {
   popupContainer.style.display = 'none';
 });
 
-const email = document.querySelector("#email");
+const email = document.querySelector('#email');
 
-email.addEventListener("input", (event) => {
-  let correctInput= event.target.value.toLowerCase();
+email.addEventListener('input', (event) => {
+  let correctInput = event.target.value.toLowerCase();
   if (event.target.value !== correctInput) {
-    email.setCustomValidity("Please enter your email address using lowercase letters.");
+    email.setCustomValidity('Please enter your email address using lowercase letters.');
   } else {
-    email.setCustomValidity("");
+    email.setCustomValidity('');
   }
 });
