@@ -1,244 +1,465 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-   </head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c06d1ae656.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo md-text">
-          <a href="#">My Logo</a>
-        </div>
-        <div class="menu-nav">
-          <button class="burger" type="button">
-            <img src="./images/burger.png" alt="Menu icon">
-          </button>
-          <ul class="links">
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Contact">Contact</a></li>
+    <header id="header">
+      <div class="header-container ">
+        <h2 class="name" href="#">John Vasquez</h2>
+       
+       
+        <nav class="navbar">
+          
+          <ul class="nav-list">
+            <li>
+              <a class="item-styles" href="#works">Portfolio</a>
+            </li>
+            <li>
+              <a class="item-styles" href="#about">About</a>
+            </li>
+            <li>
+              <a class="item-styles" href="#contact">Contact</a>
+            </li>
           </ul>
-        </div>
-      </nav>
+          <a class="hamburguer" href="#">
+            <img
+              id="hamburguer"
+              src="./images/Icon - Menu.svg"
+              alt="Menu Icon"
+            />
+          </a>
+        </nav>
+      </div>
     </header>
-    <section class="headline">
-      <h1>I’m Derek. <br>Glad to see you!</h1>
-      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-      <a class="connect">LET'S CONNECT</a>
-      <ul class="social-links">
-        <li>
-          <a href="https://twitter.com/jovasal81">
-            <img src="./images/twitter.png" alt="Twitter icon" class="icon"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/">
-            <img src="./images/Linkedin.png" alt="LinkedIn icon" class="icon"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@jovasal">
-            <img src="./images/medium.png" alt="Medium icon" class="icon"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/jovasal">
-            <img src="images/github.png" alt="GitHub icon" class="icon"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://wellfound.com/john-vasquez-12">
-            <img src="images/angel.png" alt="Angelist icon" class="icon"/>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section class="projects" id="Portfolio">
-      <div class="cards">
-        <div class="img-project">
-          <img src="./images/Snapshoot Portfolio.png" alt="Project number 1 image">
-        </div>
-        <div class="content">
-          <h2>Tonic</h2>
-          <div class="info-tags">
-            <h3>CANOPY</h3>
-            <p>Back End Dev</p>
-            <p>2015</p>
-          </div>
-          <p class="cards-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <ul class="tags">
-            <li><a>HTML</a></li>
-            <li><a>CSS</a></li>
-            <li><a>JavaScript</a></li>
-          </ul>
-          <button class="main-buttons">See Project</button>
-        </div>
-      </div>
-      <div class="cards right-image">
-        <div class="img-project">
-          <img src="./images/snap4.png" alt="Project number 2 image">
-        </div>
-        <div class="content">
-          <h2>Multi-Post Stories</h2>
-          <div class="info-tags">
-            <h3>FACEBOOK</h3>
-            <p>Back Stack Dev</p>
-            <p>2015</p>
-          </div>
-          <p class="cards-p">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-          <ul class="tags">
-            <li><a>HTML</a></li>
-            <li><a>Ruby on rails</a></li>
-            <li><a>CSS</a></li>
-            <li><a>JavaScript</a></li>
-          </ul>
-          <button class="main-buttons">See Project</button>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="img-project">
-          <img src="./images/facebook360.png" alt="Project number 3 image">
-        </div>
-        <div class="content">
-          <h2>Facebook 360</h2>
-          <div class="info-tags">
-            <h3>FACEBOOK</h3>
-            <p>Back Stack Dev</p>
-            <p>2015</p>
-          </div>
-          <p class="cards-p">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-          <ul class="tags">
-            <li><a>HTML</a></li>
-            <li><a>Ruby on rails</a></li>
-            <li><a>CSS</a></li>
-            <li><a>JavaScript</a></li>
-          </ul>
-          <button class="main-buttons">See Project</button>
-        </div>
-      </div>
-      <div class="cards right-image">
-        <div class="img-project">
-          <img src="./images/snap2.png" alt="Project number 4 image">
-        </div>
-        <div class="content">
-          <h2>Uber Navigation</h2>
-          <div class="info-tags">
-            <h3>UBER</h3>
-            <p>Lead Developer</p>
-            <p>2018</p>
-          </div>
-          <p class="cards-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <ul class="tags">
-            <li><a>HTML</a></li>
-            <li><a>Ruby on rails</a></li>
-            <li><a>CSS</a></li>
-            <li><a>JavaScript</a></li>
-          </ul>
-          <button class="main-buttons">See Project</button>
-        </div>
-      </div>
-    </section>
-    <section class="about-myself" id="About">
-      <div class="content-about-myself">
-        <h2>About Myself</h2>
-        <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-        <a class="connect">LET'S CONNECT</a>
-        <ul class="social-links">
-          <li>
-            <a href="https://twitter.com/jovasal81">
-              <img src="./images/twitter.png" alt="Twitter icon" class="icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/">
-              <img src="./images/Linkedin.png" alt="LinkedIn icon" class="icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://medium.com/@jovasal">
-              <img src="./images/medium.png" alt="Medium icon" class="icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/jovasal">
-              <img src="images/github.png" alt="GitHub icon" class="icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="https://wellfound.com/john-vasquez-12">
-              <img src="images/angel.png" alt="Angelist icon" class="icon"/>
-            </a>
-          </li>
-        </ul>
-        <button class="main-buttons">Get my resume</button>
-      </div>
-      <ul class="about-myself-ul">
-        <li class="dropdowns" id="open">
-          <a>Languages</a>
-          <button><img src="./images/Disabled.png" alt="Dropdown button"></button>
-        </li>
-        <li>
-          <ul class="languages-ul">
-            <li class="languages" id="js">JavaScript</li>
-            <li class="languages" id="html">HTML</li>
-            <li class="languages" id="css">CSS</li>
-          </ul>
-        </li>
-        <li class="dropdowns">
-          <a>Frameworks</a>
-          <button><img src="./images/Chevron.png" alt="Dropdown button"></button>
-        </li>
-        <li class="dropdowns">
-          <a>Skills</a>
-          <button><img src="./images/Chevron.png" alt="Dropdown button"></button>
-        </li>
-      </ul>
-    </section>
-    <section id="consection">
-      <ul class="contain">
-        <li class="contact">
-          <li class="contact">
-            <h1 >Contact me</h1>
+    <main>
+      <section id="headline">
+        <div class="container">
+          <div class="main-text">
+            <h1>
+              I’m John. <br />
+              Glad to see you!
+            </h1>
             <p>
-              If you have an application you are interested in</br>
-              developing, a feature that you need built or a project</br>
-              that needs coding. I’d love to help with it!            
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hesitate to contact me.
             </p>
-            <form action="https://formspree.io/f/xayzkwne" method="post">
-              <input type="text" 
-              class="input-container" 
-              placeholder="Pleae enter your name" 
-              maxlength="30" 
-              name="fullname" 
-              id="fullname" 
-              required>
-              <label class="labels" for="fullname">Full name</label>
-              <input 
-              type="email" 
-              class="input-container" 
-              placeholder="Pleae enter email address" 
-              name="email" 
-              id="email" 
-              required>
-              <label class="labels" for="email">Email address</label>
-              <textarea 
-              type="text" 
-              class="input-container-2" 
-              placeholder="Write your message here." 
-              maxlength="500" 
-              name="comment" 
-              id="comment" 
-              required>
-              </textarea>
-              <label class="labels" for="comment">Comment</label>
-              <button type="submit" class="button-form">Get in touch</button>
-            </form>
+            <div class="social-icons social-deskt">
+              <a href="#" class="connect conect-deskt">LET'S CONNECT</a>
+              <ul id="icons">
+                <li>
+                  <a href="https://twitter.com/jovasal81"
+                    ><img src="./images/twitter.svg" alt="twitter-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/"
+                    ><img src="./images/Linkedin icon.svg" alt="linkedin-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@jovasal"
+                    ><img src="./images/medium.svg" alt="medium-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://github.com/jovasal"
+                    ><img src="./images/github.svg" alt="github-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://wellfound.com/john-vasquez-12"
+                    ><img src="./images/angelist.svg" alt="angelist-logo"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <div class="card card-desk">
+          <img
+            src="./images/Snapshoot Portfolio.png"
+            alt="work-image-project"
+            class="image-mob"
+          />
+          <img
+            class="desktop-image"
+            src="./images/Snapshoot Portfolio desk.png"
+            alt=""
+          />
+
+          <div class="card-content-mob card-content-deskt card-hero">
+            <h2 class="tonic ton">TONIC</h2>
+            <ul class="dates dated-d">
+              <li>CANOPI</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend">Back End Dev</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend">2015</li>
+            </ul>
+            <p class="paragraph pa">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="stacks">
+              <li class="stack-over">HTML</li>
+              <li class="stack-over">CSS</li>
+              <li class="stack-over">Javascript</li>
+            </ul>
+            <!-- <a href="#" class="btn">See Project</a> -->
+            <button class="btn" id="popupButton1">See Project</button>
+          </div>
+        </div>
+
+        <div class="card card-desk2">
+          <img
+            src="./images/Snapshoot 2.png"
+            alt="work-image-project"
+            class="image-mob"
+          />
+          <img
+            class="desktop-image2"
+            src="./images/Snapshoot Portfolio 4.png"
+            alt=""
+          />
+
+          <div class="card-content-mob card-content-deskt card-hero2">
+            <h2 class="tonic ton">Multi-Post <br />Stories</h2>
+            <ul class="dates">
+              <li class="desktop-hide">CANOPI</li>
+              <li class="mobile-hide desktop-show">FACEBOOK</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend desktop-hide">Back End Dev</li>
+              <li class="mobile-hide desktop-show">Full Stack Dev</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend">2015</li>
+            </ul>
+
+            <p class="paragraph pa desktop-hide">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <p class="paragraph pa desktop-show mobile-hide">
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
+            </p>
+            <ul class="stacks">
+              <li class="stack-over">HTML</li>
+              <li class="stack-over mobile-hide desktop-show">Ruby on rails</li>
+              <li class="stack-over">CSS</li>
+              <li class="stack-over">Javascript</li>
+            </ul>
+            <!-- <a href="#" class="btn">See Project</a> -->
+            <button class="btn" id="popupButton2">See Project</button>
+          </div>
+        </div>
+        <div class="card card-desk3">
+          <img
+            src="./images/Snapshoot 3.png"
+            alt="work-image-project"
+            class="image-mob"
+          />
+          <img
+            src="./images/Snapshoot Portfolio.png"
+            alt="work-image-project"
+            class="desktop-image3"
+          />
+
+          <div class="card-content-mob card-content-deskt card-hero3">
+            <h2 class="tonic ton desktop-hide">TONIC</h2>
+            <h2 class="tonic ton desktop-show mobile-hide">Facebook 360</h2>
+            <ul class="dates">
+              <li class="desktop-hide">CANOPI</li>
+              <li class="desktop-show mobile-hide">FACEBOOK</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend">Back End Dev</li>
+              <li class="mobile-hide desk-show">Full Stack Dev</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend">2015</li>
+            </ul>
+
+            <p class="paragraph pa desktop-hide">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <p class="desktop-show mobile-hide">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <ul class="stacks">
+              <li class="stack-over">HTML</li>
+              <li class="stack-over mobile-hide desktop-show">Ruby on rails</li>
+              <li class="stack-over">CSS</li>
+              <li class="stack-over">Javascript</li>
+            </ul>
+            <!--<a href="#" class="btn">See Project</a>-->
+            <button class="btn" id="popupButton3">See Project</button>
+          </div>
+        </div>
+        <div class="card card-desk4">
+          <img
+            src="./images/Snapshoot Portfolio 4.png"
+            alt="work-image-project"
+            class="image-mob"
+          />
+          <img
+            src="./images/Snapshoot 2.png"
+            alt="work-image-project"
+            class="desktop-image4"
+          />
+
+          <div class="card-content-mob card-content-deskt card-hero4">
+            <h2 class="tonic ton desktop-hide">Multi-Post <br />Stories</h2>
+            <h2 class="tonic ton mobile-hide desktop-show">Uber Navigation</h2>
+            <ul class="dates">
+              <li class="desktop-hide">CANOPI</li>
+              <li class="mobile-hide desktop-show">Uber</li>
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend desktop-hide">Back End Dev</li>
+              <li class="desktop-show mobile-hide">Lead Developer</li>
+
+              <li><img src="./images/bullet.svg" alt="counter" /></li>
+              <li class="stack-backend desktop-hide">2015</li>
+              <li class="desktop-show mobile-hide">2018</li>
+            </ul>
+
+            <p class="paragraph pa desktop-hide">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+
+            <p class="desktop-show mobile-hide">
+              A smart assistant to make driving more safe, efficient, and fun by
+              unlocking your most expensive computer: your car.
+            </p>
+            <ul class="stacks">
+              <li class="stack-over">HTML</li>
+              <li class="stack-over mobile-hide desktop-show">Ruby on rails</li>
+              <li class="stack-over">CSS</li>
+              <li class="stack-over">Javascript</li>
+            </ul>
+            <!--<a href="#" class="btn">See Project</a>-->
+            <button class="btn" id="popupButton4">See Project</button>
+          </div>
+        </div>
+
+
+
+
+
+        
+        
+        
+        
+        
+      
+        <div id="popupContainer" class="popup-container">
+          <div id="popup" class="popup">
+            <div class="popup-header">
+              <div class="popup-title"></div>
+              <div class="popup-close">x</div>
+            </div>
+            <div class="popup-content">
+              <!--<h3>Subtitle 1</h3>>-->
+              <ul class="dates dated-d">
+                <li>Point 1</li>
+                <li><img src="./images/bullet.svg" alt="counter" /></li>
+                <li class="stack-backend">Point 2</li>
+                <li><img src="./images/bullet.svg" alt="counter" /></li>
+                <li class="stack-backend">Point 3</li>
+              </ul>
+                    
+              <!--<h3>Subtitle 2</h3>-->
+                <img
+            src="path/to/image.jpg"
+            alt="work-image-project"
+            class="imagemobilepopup"
+          />
+          <img
+            src="image\SnapshootPortfolio.svg"
+            alt="work-image-project"
+            class="imagedesktop111"
+          />
+             
+             <!-- <picture>
+                <img src="path/to/image.jpg" alt="Image">
+                <source srcset="image\Snapshoot Portfolio.svg" media="(max-width: 768px)">              
+              </picture> -->
+              <!--<img src="path/to/image.jpg" alt="Image">-->
+      
+              <!--<h3>Subtitle 3</h3>-->
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="popup-buttons">
+              <button class="popup-button" id="button1">See Live<img src="./images/Icon11.svg" alt="counter" /></button>
+              <button class="popup-button" id="button2">See source<img src="./images/Icon -GitHub.svg" alt="counter" /></button>
+            </div>
+          </div>
+        </div>
+      
+
+
+
+
+
+      </section>
+      <section id="about">
+        <div class="main-about main-deskt">
+          <h3 class="about-fonts">About Myself</h3>
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website. Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </p>
+          <div class="social-icons">
+            <a href="" class="connect">LET'S CONNECT</a>
+            <ul id="icons-about">
+              <li>
+                <a href="https://twitter.com/jovasal81"
+                  ><img src="./images/twitter.svg" alt="twitter-logo" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/"
+                  ><img src="./images/Linkedin icon.svg" alt="linkedin-logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://medium.com/@jovasal"
+                  ><img src="./images/medium.svg" alt="medium-logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/jovasal"
+                  ><img src="./images/github.svg" alt="github-logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://wellfound.com/john-vasquez-12"
+                  ><img src="./images/angelist.svg" alt="angelist-logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a class="btn-resume" href="#"> Get My Resume </a>
+          </div>
+        </div>
+
+        <ul class="container-end">
+          <li class="cont-lang">
+            <h5>Languages</h5>
+            <img
+              class="bullet-point"
+              src="./images/chevrondown.svg"
+              alt="chevron button"
+            />
           </li>
-        </li>
-      </ul>
+          <ul class="final-stack">
+            <li class="cont-stack stack-deskt">
+              <img src="./images/js.svg" alt="html-logo" />
+              <h4>Javascript</h4>
+            </li>
+            <li class="cont-stack stack-deskt">
+              <img src="./images/html5.svg" alt="css-logo" />
+              <h4>HTML</h4>
+            </li>
+            <li class="cont-stack stack-deskt">
+              <img src="./images/css.svg" alt="javascript-logo" />
+              <h4>CSS</h4>
+            </li>
+          </ul>
+          <ul class="underline-frame under-deskt">
+            <li class="cont-frame">
+              <h5>Frameworks</h5>
+              <img
+                class="chevron"
+                src="./images/chevronright.svg"
+                alt="chevron"
+              />
+            </li>
+          </ul>
+
+          <ul class="underline-skills frame-skills">
+            <li class="cont-skills">
+              <h5>Skills</h5>
+              <img
+                class="chevron"
+                src="./images/chevronright.svg"
+                alt="chevron"
+              />
+            </li>
+          </ul>
+        </ul>
+      </section>
+    </main>
+    <section id="contact" class="contact-section back-deskt">
+      <div class="contact">
+        <h6>Contact me</h6>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding.
+          I’d love to help with it!
+        </p>
+        <form
+          action="https://formspree.io/f/xayzkwne"
+          class="form"
+          method="post"
+        >
+          <div class="form-group">
+            <input
+              class="types"
+              type="text"
+              id="name"
+              placeholder="Full Name"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              class="types"
+              type="email"
+              id="email"
+              placeholder="Email in lower case"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here..."
+              maxlength="500"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <input value="Get in touch" type="submit" class="btn-input" />
+          </div>
+        </form>
+      </div>
+      <div class="border-line"></div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>
