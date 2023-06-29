@@ -129,7 +129,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
   } else {
     
-    console.log("Form sent successfully!");
+     console.log("Form sent successfully!");
     this.submit(); 
   }
   
