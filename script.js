@@ -118,19 +118,13 @@ closeButton.addEventListener('click', () => {
   popupContainer.style.display = 'none';
 });
 
-document.getElementById("myForm").addEventListener("submit", function(event) {
- // Prevent form submission
+const email = document.querySelector("#email");
 
-  var emailInput = document.getElementById("emailInput");
-  //var errorMessage = document.getElementById("your email must be write in lower case");
-
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
-    
-    event.preventDefault();
+email.addEventListener("input", (event) => {
+  let correctInput= event.target.value.toLowerCase();
+  if (event.target.value !== correctInput) {
+    email.setCustomValidity("Please enter your email address using lowercase letters.");
   } else {
-    
-     console.log("Form sent successfully!");
-    this.submit(); 
+    email.setCustomValidity("");
   }
-  
 });
