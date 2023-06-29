@@ -139,10 +139,11 @@ if (localStorage.getItem('formData')) {
 const inputFields = document.querySelectorAll('input');
 inputFields.forEach(input => {
   input.addEventListener('change' () => {
-    const formData = {
+    const formData = {//save data in local storage
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
       message: document.getElementById('message').value,
     };
-  })
-})
+    localStorage.setItem('formData', JSON.stringify(formData));
+  });
+});
