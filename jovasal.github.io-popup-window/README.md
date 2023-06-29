@@ -13,7 +13,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -30,19 +29,19 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Complete-Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio Accessibility] <a name="about-project"></a>
 
-<h2> This project contains all technical details knowledges required for Microverse process student</h2>
+> This project contains all technical details knowledges required for Microverse process student
 
  This project you can see in: https://jovasal.github.io/ 
 
-**[Complete-Portfolio]** is the first project under knowledge learned in the Microverse process.
+**[Portfolio Accessibility]** is the first project under knowledge learned in the Microverse process.
 
 ## 🛠 Built With <a name="built-with">John Alonso Vasquez Salcedo made this project under HTML and CSS</a>
 
 ### Tech Stack <a name="tech-stack">HTML & CSS</a>
 
-<h2> This project were made with HTML and CSS.</h2>
+> This project were made with HTML and CSS.
 
 <details>
   <summary>Client</summary>
@@ -60,7 +59,7 @@
 
 ### Key Features <a name="key-features">Responcive project with version mobile and desktop</a>
 
-<h2> 3 key features of the application.</h2>
+> Describe between 1-3 key features of the application.
 
 - **Responsive Version**
 - **Grid Containers**
@@ -68,23 +67,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-<h2> Is not necessary to use a DEMO. You can download this repository as a reference. </h2>
-
-- [Live Demo Link](https://github.com/jovasal/jovasal.github.io.git)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<h2> You can use this project as a reference for future students.</h2>
+> You can use this project as a reference for future students.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-<h2>In order to run this project you need:</h2>
+In order to run this project you need:
 
 <!--
 Example command:
@@ -96,7 +87,7 @@ Example command:
 
 ### Setup
 
-<h2>Clone this repository to your desired folder:</h2>
+Clone this repository to your desired folder:
 
 Yoy can use this repository ising the following steps:
            
@@ -119,7 +110,7 @@ Yoy can use this repository ising the following steps:
 
 ### Install
 
-<h2>Is not necesary to install, but you need any sofware that you can use HTML and CSS.</h2>
+Is not necesary to install, but you need any sofware that you can use HTML and CSS
 
 ### Usage
 
@@ -136,18 +127,18 @@ Yoy can use this repository ising the following steps:
 
 ### Run tests
 
-<h2>Test is in the following repository: https://github.com/jovasal/jovasal.github.io.git</h2>
+Test is in the following repository: https://github.com/jovasal/jovasal.github.io.git
 
 ### Deployment
 
 
-<h2>All deployment is in: https://github.com/jovasal/jovasal.github.io.git</h2>
+All deployment is in: https://github.com/jovasal/jovasal.github.io.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors">John Alonso Vasquez Salcedo</a>
 
-<h2>John Alonso Vasquez Salcedo</h2>
+John Alonso Vasquez Salcedo
 
 > Thank you so mucho to Microverse and FIGMA
 
@@ -161,17 +152,17 @@ Yoy can use this repository ising the following steps:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<h2> 3 features you will add to the project.</h2>
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[JAVA]**
+- [ ] **[JAVASCRIPT]**
 - [ ] **[CSS]**
-- [ ] **[Challeges and contributions]**
+- [ ] **[HTML]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-<h2>Contributions, issues, and feature requests are welcome!</h2>
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/jovasal/jovasal.github.io.git/issues).
 
@@ -181,13 +172,13 @@ Feel free to check the [issues page](https://github.com/jovasal/jovasal.github.i
 
 ## ⭐️ Show your support <a name="support"></a>
 
-<h2> If you like this project kindly show some love, give it a 🌟 **STAR** 🌟</h2>
+> If you like this project kindly show some love, give it a 🌟 **STAR** 🌟
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<h2> Thank you so much to Miroverse course and FIGMA</h2>
+> Thank you so much to Miroverse course and FIGMA
 
 [Microverse](https://www.microverse.org/es/inicio)
 
