@@ -673,6 +673,11 @@ textarea {
   display: none;
 }
 
+/* contact form */
+.hiddenform {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   /* ------Header Desktop------ */
 

@@ -117,3 +117,19 @@ popupButton4.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   popupContainer.style.display = 'none';
 });
+
+document.getElementById("myForm").addEventListener("submit", function(event) {
+ // Prevent form submission
+
+  var emailInput = document.getElementById("emailInput");
+  //var errorMessage = document.getElementById("your email must be write in lower case");
+
+  if (emailInput.value === emailInput.value.toLowerCase()) {
+    // Validation is OK, send the form
+    console.log("Form sent successfully!");
+    this.submit(); // Submit the form
+  } else {
+    // Validation failed, display error message
+    event.preventDefault(); 
+  }
+});
