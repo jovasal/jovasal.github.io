@@ -132,7 +132,7 @@ if (localStorage.getItem('formData')) {
   const savedData = JSON.parse(localStorage.getItem('formData'));
   document.getElementById('name').value = savedData.name || '';
   document.getElementById('email').value = savedData.email || '';
-  document.getElementById('message').value = savedData.message || '';
+  document.getElementById('mensage').value = savedData.mensage || '';
 }
 
 // Add event listeners to input fields
@@ -142,7 +142,7 @@ inputFields.forEach((input) => {
     const formData = { // save data in local storage
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
-      message: document.getElementById('message').value,
+      message: document.getElementById('mensage').value,
     };
     localStorage.setItem('formData', JSON.stringify(formData));// convert formdata object to a JSON string and save it in local store
   });
