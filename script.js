@@ -137,7 +137,7 @@ if (localStorage.getItem('formData')) {
 
 // Add event listeners to input fields
 const inputFields = document.querySelectorAll('input');
-inputFields.forEach(input => {
+inputFields.forEach((input) => {
   input.addEventListener('change', () => {
     const formData = { // save data in local storage
       name: document.getElementById('name').value,
