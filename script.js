@@ -117,6 +117,7 @@ closeButton.addEventListener('click', () => {
 });
 
 const email = document.querySelector('#email');
+const message = document.querySelector('#message');
 
 email.addEventListener('input', (event) => {
   const correctInput = event.target.value.toLowerCase();
@@ -132,18 +133,19 @@ if (localStorage.getItem('formData')) {
   const savedData = JSON.parse(localStorage.getItem('formData'));
   document.getElementById('name').value = savedData.name || '';
   document.getElementById('email').value = savedData.email || '';
-  document.getElementById('mensage').value = savedData.mensage || '';
+  document.getElementById('message').value = savedData.message || '';
 }
 
-// Add event listeners to input fields
+// Add event listeners to input fields and textarea
 const inputFields = document.querySelectorAll('input');
-inputFields.forEach((input) => {
-  input.addEventListener('change', () => {
-    const formData = { // save data in local storage
+const formElements = [...inputFields, message];
+formElements.forEach((element) => {
+  element.addEventListener('change', () => {
+    const formData = {
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
-      message: document.getElementById('mensage').value,
+      message: document.getElementById('message').value,
     };
-    localStorage.setItem('formData', JSON.stringify(formData));// convert formdata object to a JSON string and save it in local store
+    localStorage.setItem('formData', JSON.stringify(formData));
   });
 });
