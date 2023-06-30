@@ -117,7 +117,7 @@ closeButton.addEventListener('click', () => {
 });
 
 const email = document.querySelector('#email');
-const message = document.querySelector('.message');
+const message = document.querySelector('#message');
 
 email.addEventListener('input', (event) => {
   const correctInput = event.target.value.toLowerCase();
