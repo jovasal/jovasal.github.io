@@ -146,18 +146,4 @@ inputFields.forEach(input => {
     };
     localStorage.setItem('formData', JSON.stringify(formData));// convert formdata object to a JSON string and save it in local store
   });
-  //  Function to load data from local storage and pre-fill the form fields
-  const loadSaveData = () => {
-    const savedDataIn = JSON.parse(localStorage.getItem('formData'));
-    if (savedDataIn) {
-      //  loop throught each input field in the form
-      formData.querySelectorAll('input').forEach(input => {
-        if (savedDataIn[input.id]) {
-          if (savedDataIn[input.id]) {
-            input.value = savedDataIn[input.id];
-          }
-        }
-      });
-    }
-  };
 });
